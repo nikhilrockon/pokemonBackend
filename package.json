@@ -1,0 +1,31 @@
+{
+  "name": "nodejswebapi",
+  "version": "1.0.0",
+  "description": "NodeJS WebAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "This",
+    "is",
+    "new",
+    "node",
+    "js",
+    "web",
+    "api",
+    "project"
+  ],
+  "author": "Shashank",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^5.5.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11"
+  }
+}
